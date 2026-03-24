@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(215, 211, 211);
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    max-width: 300px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgb(95, 94, 94);
+    border-radius: 20px;
+}
+input{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+label{
+    font-weight: bold;
+    font-size: 30px;
+}
+button{
+    width: 80px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: rgb(72, 241, 16);
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(63, 218, 11);
+}
+button:active{
+    background-color: rgb(55, 200, 7);
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(4, 63, 100);
+}
+p span{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(131, 11, 11);
+}
+h1{
+    color: rgb(17, 48, 173);
+    background: linear-gradient(180deg, rgb(227, 197, 197), rgb(156, 202, 156));
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
